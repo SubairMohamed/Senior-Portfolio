@@ -558,6 +558,10 @@ video {
   text-align: center;
 }
 
+.font-nunito {
+  font-family: Nunito Sans;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -571,4 +575,3 @@ video {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
 }
-
