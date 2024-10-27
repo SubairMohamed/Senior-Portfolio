@@ -558,6 +558,10 @@ video {
   margin: 2.5rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -586,6 +590,10 @@ video {
   padding-left: 1.25rem;
 }
 
+.font-nunito {
+  font-family: Nunito Sans;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -593,6 +601,10 @@ video {
 
 .font-black {
   font-weight: 900;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
