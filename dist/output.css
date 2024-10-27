@@ -554,14 +554,6 @@ video {
   display: none;
 }
 
-.bg-repeat {
-  background-repeat: repeat;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .text-center {
   text-align: center;
 }
