@@ -554,12 +554,20 @@ video {
   display: none;
 }
 
-.font-logo {
-  font-family: Roboto;
+.m-10 {
+  margin: 2.5rem;
 }
 
-.font-nunito {
-  font-family: Nunito Sans;
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .text-3xl {
