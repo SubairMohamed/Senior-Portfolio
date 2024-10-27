@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ["Nunito Sans"],
-        logo: ["Oswald"],
+        logo: ["Roboto"],
       },
 
       colors: {
