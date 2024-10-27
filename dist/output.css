@@ -649,6 +649,10 @@ video {
   font-family: Nunito Sans;
 }
 
+.font-logo {
+  font-family: Roboto;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -664,6 +668,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .text-white {
