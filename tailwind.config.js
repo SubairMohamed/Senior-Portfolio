@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         bgMain: "#0D1016",
         txtColor: "#f2f2f2",
+        bgColor: "#133E87",
       },
     },
   },
