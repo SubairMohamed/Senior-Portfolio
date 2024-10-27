@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.font-logo {
+  font-family: Roboto;
+}
+
 .font-nunito {
   font-family: Nunito Sans;
 }
@@ -565,6 +569,10 @@ video {
 
 .font-black {
   font-weight: 900;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {
