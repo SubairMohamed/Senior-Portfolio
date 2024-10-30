@@ -6,3 +6,7 @@ border: 2px solid #0B192C;
   background: rgba(13, 16, 22, 0.9);
   backdrop-filter: blur(4px);
 }
+
+#left {
+    border-right: 1px solid #f2f2f2;
+}
