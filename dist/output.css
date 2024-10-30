@@ -661,6 +661,22 @@ video {
   width: 25%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .max-w-80 {
   max-width: 20rem;
 }
