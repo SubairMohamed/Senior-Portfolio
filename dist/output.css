@@ -725,6 +725,16 @@ video {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -878,4 +888,32 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.delay-75 {
+  transition-delay: 75ms;
+}
+
+.delay-100 {
+  transition-delay: 100ms;
+}
+
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.duration-75 {
+  transition-duration: 75ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
