@@ -826,6 +826,10 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:text-modeColor:hover {
   --tw-text-opacity: 1;
   color: rgb(96 139 193 / var(--tw-text-opacity));
