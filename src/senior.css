@@ -15,7 +15,7 @@ border: 2px solid #0B192C;
     border-left: 1px solid #f2f2f2;
 }
 
-#ping {
+/* #ping {
     width: 24px;
     height: 24px;
     background: #608BC1;
@@ -23,7 +23,7 @@ border: 2px solid #0B192C;
     top: 44px;
     left: 350px;
     border-radius: 50%;
-}
+} */
 
 .fa-rocket {
     position: relative;
