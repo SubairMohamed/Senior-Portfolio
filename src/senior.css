@@ -36,3 +36,8 @@ border: 2px solid #0B192C;
 #btn-main span {
     border: 1px solid #0B192C;
 }
+
+#line-main {
+    width: 622px;
+    margin-top: 2rem;
+}
