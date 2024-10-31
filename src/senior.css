@@ -28,3 +28,7 @@ border: 2px solid #0B192C;
 #btn-talk:hover {
     box-shadow: 5px 6px 8px 3px #295790;
 }
+
+#icons-left:hover {
+    box-shadow: 5px 6px 8px 3px #295790;
+}
