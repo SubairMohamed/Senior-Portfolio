@@ -25,7 +25,15 @@ border: 2px solid #0B192C;
     position: relative;
 }
 
+#code-2 {
+    position: absolute;
+    left: 350px;
+    bottom: 184px;
+}
 
+#code-1 {
+    position: relative;
+}
 
 #btn-talk:hover {
     box-shadow: 5px 6px 8px 3px #295790;
