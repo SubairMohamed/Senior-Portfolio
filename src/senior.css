@@ -68,15 +68,22 @@ border: 2px solid #0B192C;
     /* animation: 25s slide infinite linear; */
 }
 
-#slider-wrapper::before {
+#slider-wrapper::before, #slider-wrapper::after {
     width: 10%;
     height: 11vh;
     position: absolute;
     top: 0;
-    left: 0;
     background: #295790;
     z-index: 2;
-    content: "ssss";
+    content: "";
+}
+
+#slider-wrapper::before {
+    left: 0;
+}
+
+#slider-wrapper::after {
+    right: 0;
 }
 
 @keyframes slide {
