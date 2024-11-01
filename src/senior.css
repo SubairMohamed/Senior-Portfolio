@@ -53,9 +53,11 @@ border: 2px solid #0B192C;
 }
 
 #slider-wrapper {
-    margin: 2rem 0.5rem 0 .5rem;
+    width: 96%;
+    margin: 2rem 0rem 0 0rem;
     padding: 1rem;
     background: rgba(112, 108, 108, 0.2);
+    position: relative;
 }
 
 #slider-icons {
@@ -63,4 +65,23 @@ border: 2px solid #0B192C;
     flex-direction: row;
     justify-content: center;
     gap: 16px;
+    /* animation: 25s slide infinite linear; */
+}
+
+#slider-wrapper::before {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    background: #295790;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
