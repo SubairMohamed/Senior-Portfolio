@@ -75,6 +75,7 @@ border: 2px solid #0B192C;
     top: 0;
     left: 0;
     background: #295790;
+    z-index: 2;
     content: "ssss";
 }
 
