@@ -69,11 +69,13 @@ border: 2px solid #0B192C;
 }
 
 #slider-wrapper::before {
-    width: 50%;
-    height: 50%;
+    width: 10%;
+    height: 11vh;
     position: absolute;
     top: 0;
+    left: 0;
     background: #295790;
+    content: "ssss";
 }
 
 @keyframes slide {
