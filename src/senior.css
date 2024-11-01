@@ -51,3 +51,7 @@ border: 2px solid #0B192C;
     width: 622px;
     margin-top: 2rem;
 }
+
+#slider-wrapper {
+    margin: 1rem 0 0 1rem;
+}
