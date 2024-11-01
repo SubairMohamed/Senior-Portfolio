@@ -56,7 +56,6 @@ border: 2px solid #0B192C;
     width: 96%;
     margin: 2rem 0rem 0 0rem;
     padding: 1rem;
-    background: black;
     position: relative;
     overflow: hidden;
 }
@@ -93,7 +92,6 @@ border: 2px solid #0B192C;
 #carousel::after {
     content: "";
     animation: 20s swap infinite;
-    transition: swap 30s ease-in-out;
 }
 
 @keyframes swap {
@@ -115,11 +113,12 @@ border: 2px solid #0B192C;
 }
 
 @keyframes slide {
+   
     from {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 
     to {
-        transform: translateX(-96%);
+        transform: translateX(-100%);
     }
 }
