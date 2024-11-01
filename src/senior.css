@@ -53,5 +53,6 @@ border: 2px solid #0B192C;
 }
 
 #slider-wrapper {
-    margin: 1rem 0 0 1rem;
+    margin: 1rem;
+    background: #857373;
 }
