@@ -80,10 +80,12 @@ border: 2px solid #0B192C;
 
 #slider-wrapper::before {
     left: 0;
+    background: linear-gradient(to left, rgba(112, 108, 108, 0.2), #706c6c);
 }
 
 #slider-wrapper::after {
     right: 0;
+    background: linear-gradient(to right, rgba(112, 108, 108, 0.2), #706c6c);
 }
 
 @keyframes slide {
