@@ -65,7 +65,7 @@ border: 2px solid #0B192C;
     flex-direction: row;
     justify-content: center;
     gap: 16px;
-    animation: 25s slide infinite linear;
+    /* animation: 25s slide infinite linear; */
 }
 
 #slider-wrapper::before, #slider-wrapper::after {
@@ -94,6 +94,6 @@ border: 2px solid #0B192C;
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-96%);
     }
 }
