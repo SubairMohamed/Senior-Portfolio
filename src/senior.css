@@ -54,11 +54,13 @@ border: 2px solid #0B192C;
 
 #slider-wrapper {
     margin: 2rem 0.5rem 0 .5rem;
-    background: #857373;
+    padding: 1rem;
+    background: rgba(112, 108, 108, 0.2);
 }
 
 #slider-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 16px;
 }
