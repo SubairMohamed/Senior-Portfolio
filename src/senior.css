@@ -88,6 +88,11 @@ border: 2px solid #0B192C;
     background: linear-gradient(to right, #000);
 }
 
+/* word carousel */
+#carousel::after {
+    content: "";
+}
+
 @keyframes slide {
     from {
         transform: translateX(0);
