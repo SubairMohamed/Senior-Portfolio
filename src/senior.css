@@ -53,10 +53,6 @@ border: 2px solid #0B192C;
 }
 
 #slider-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 6rem;
     width: 96%;
     margin: 2rem 0rem 0 0rem;
     padding: 1rem;
@@ -68,6 +64,7 @@ border: 2px solid #0B192C;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 16px;
     animation: 25s slide infinite linear;
 }
 
