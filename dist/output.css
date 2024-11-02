@@ -704,6 +704,10 @@ video {
   max-width: 13rem;
 }
 
+.flex-none {
+  flex: none;
+}
+
 @keyframes ping {
   75%, 100% {
     transform: scale(2);
