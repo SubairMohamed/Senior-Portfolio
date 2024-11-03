@@ -35,6 +35,14 @@ border: 2px solid #0B192C;
     position: relative;
 }
 
+#img-ping {
+    position: absolute;
+}
+
+#img-origin {
+    position: relative;
+}
+
 #btn-talk:hover {
     box-shadow: 5px 6px 8px 3px #295790;
 }
