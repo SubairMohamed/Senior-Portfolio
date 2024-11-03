@@ -97,6 +97,15 @@
         </aside>
 
        </div>
+
+       <script>
+        let time = document.getElementById("current");
+
+        setInterval(() => {
+          let d = new Date();
+          time.innerHTML = d.toLocaleTimeString();
+        })
+       </script>
 </body>
 </html>
 
