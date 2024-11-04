@@ -68,8 +68,6 @@ border: 2px solid #0B192C;
     width: 622px;
     margin-top: 2rem;
 }
-/* Ends Main side */
-
 
 #slider-wrapper {
     width: 96%;
@@ -111,6 +109,8 @@ border: 2px solid #0B192C;
 #slider-wrapper:hover #slider-icons {
     animation-play-state: paused;
 }
+/* Ends Main side */
+
 
 /* word carousel */
 #carousel::after {
