@@ -59,7 +59,6 @@ border: 2px solid #0B192C;
 #code-1 {
     position: relative;
 }
-/* Ends Main side */
 
 #btn-main span {
     border: 1px solid #0B192C;
@@ -69,6 +68,8 @@ border: 2px solid #0B192C;
     width: 622px;
     margin-top: 2rem;
 }
+/* Ends Main side */
+
 
 #slider-wrapper {
     width: 96%;
