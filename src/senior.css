@@ -112,11 +112,12 @@ border: 2px solid #0B192C;
 /* Ends Main side */
 
 
-/* word carousel */
+/* Start word carousel Main */
 #carousel::after {
     content: "";
     animation: 20s swap infinite;
 }
+/* Ends word carousel Main */
 
 
 
