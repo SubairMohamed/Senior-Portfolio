@@ -120,7 +120,7 @@ border: 2px solid #0B192C;
 /* Ends word carousel Main */
 
 
-
+/* Starts Carousel */
 @keyframes swap {
     0% {
         content: " Code That Connects People and Possibilities."; 
@@ -138,7 +138,9 @@ border: 2px solid #0B192C;
         content: " Code That Connects People and Possibilities."; 
     }
 }
+/* Ends Carousel */
 
+/* Start Scrolling */
 @keyframes slide {
    
     from {
@@ -149,3 +151,4 @@ border: 2px solid #0B192C;
         transform: translateX(-100%);
     }
 }
+/* Ends Scrolling */
