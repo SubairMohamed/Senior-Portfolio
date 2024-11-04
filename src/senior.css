@@ -31,7 +31,6 @@ border: 2px solid #0B192C;
 .fa-rocket {
     position: relative;
 }
-/* Ends Main side */
 
 #code-2 {
     position: absolute;
@@ -42,6 +41,7 @@ border: 2px solid #0B192C;
 #code-1 {
     position: relative;
 }
+/* Ends Main side */
 
 #img-ping {
     position: absolute;
