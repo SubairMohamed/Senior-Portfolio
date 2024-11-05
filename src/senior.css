@@ -25,7 +25,10 @@ border: 2px solid #0B192C;
     top: 81px;
     left: 34px;
     z-index: -2;
+    opacity: 0;
 }
+
+
 /* Ends left side */
 
 /* Start Navbar */
