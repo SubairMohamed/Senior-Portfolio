@@ -15,20 +15,6 @@ border: 2px solid #0B192C;
     box-shadow: 5px 6px 8px 3px #295790;
 }
 
-#my-img {
-    position: relative;
-    z-index: -2;
-}
-
-#avater-img {
-    position: absolute;
-    top: 81px;
-    left: 34px;
-    z-index: -2;
-    opacity: 0;
-}
-
-
 /* Ends left side */
 
 /* Start Navbar */
