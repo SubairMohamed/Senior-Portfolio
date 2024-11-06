@@ -17,7 +17,6 @@ border: 2px solid #0B192C;
 
 #circle-img {
     position: relative;
-    z-index: -5;
 }
 
 #avater-img {
@@ -35,6 +34,10 @@ border: 2px solid #0B192C;
 /* Ends left side */
 
 /* Start Navbar */
+#Navbar {
+  z-index: 1;
+}
+
 #Menu {
   background: rgba(13, 16, 22, 0.9);
   backdrop-filter: blur(4px);
