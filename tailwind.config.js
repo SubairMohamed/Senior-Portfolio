@@ -13,6 +13,7 @@ module.exports = {
         bgMain: "#0D1016",
         txtColor: "#f2f2f2",
         modeColor: "#608BC1",
+        whiteMode: "#FBFBFB",
       },
     },
   },
