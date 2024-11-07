@@ -19,13 +19,19 @@ border: 2px solid #0B192C;
     box-shadow: 5px 6px 8px 3px #295790;
 }
 
+#my-img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
 #circle-img {
     position: relative;
 }
 
 #avater-img {
     position: absolute;
-    top: 1px;
+    top: 10px;
     left: 2px;
     opacity: 1;
     transition: all .4s ease;
