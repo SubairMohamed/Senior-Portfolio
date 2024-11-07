@@ -944,3 +944,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(96 139 193 / var(--tw-bg-opacity));
 }
+
+.active\:focus\:bg-modeColor:focus:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 139 193 / var(--tw-bg-opacity));
+}
+
+.focus\:active\:bg-modeColor:active:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 139 193 / var(--tw-bg-opacity));
+}
