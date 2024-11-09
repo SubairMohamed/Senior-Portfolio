@@ -25,7 +25,8 @@ defer></script>
             </div>
 
             <div id="Mode" class="right-0 mr-4">
-              <button id="btnMode" class="px-3 py-1 font-bold text-white capitalize rounded-full bg-modeColor"><i class="text-white fas fa-moon"></i> dark</button>
+              <button id="btnLight" class="px-3 py-1 font-bold text-white capitalize rounded-full bg-modeColor"><i class="text-white fas fa-sun"></i> light</button>
+              <button id="btnDark" class="px-3 py-1 font-bold text-white capitalize rounded-full bg-modeColor"><i class="text-white fas fa-moon"></i> dark</button>
             </div>
           </div>
        </nav>
@@ -126,8 +127,12 @@ defer></script>
 
         // some code of JQuery
         $(document).ready(function () {
-          $("#btnMode").click(function () {
+          $("#btnDark").click(function () {
             $("body").css("background", "white");
+          });
+
+          $("#btnLight").click(function () {
+            $("body").css("background-image", "url('/dist/img/star-4773.gif')");
           });
         });
        </script>
