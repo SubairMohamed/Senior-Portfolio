@@ -25,7 +25,7 @@ defer></script>
             </div>
 
             <div id="Mode" class="right-0 mr-4">
-              <button class="px-3 py-1 font-bold text-white capitalize rounded-full bg-modeColor"><i class="text-white fas fa-moon"></i> dark</button>
+              <button id="btnMode" class="px-3 py-1 font-bold text-white capitalize rounded-full bg-modeColor"><i class="text-white fas fa-moon"></i> dark</button>
             </div>
           </div>
        </nav>
@@ -116,12 +116,20 @@ defer></script>
        </div>
 
        <script>
+        //some code of Vannila Javascript
         let time = document.getElementById("current");
 
         setInterval(() => {
           let d = new Date();
           time.innerHTML = d.toLocaleTimeString();
         })
+
+        // some code of JQuery
+        $(document).ready(function () {
+          $("#btnMode").click(function () {
+            $("body").css("background", "white");
+          });
+        });
        </script>
 
 <!--  some error are taking, but we will fix as soon as possible, sory every one -->
