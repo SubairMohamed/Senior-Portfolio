@@ -39,8 +39,8 @@ defer></script>
                <img id="my-img" class="mx-auto rounded-full w-60 h-60" src="/dist/img/My Portofolio-2.jpg" alt="original">
                <img id="avater-img" class="mx-auto rounded-full w-60 h-60" src="/dist/img/my-avater-3.png" alt="hover-logo">
             </div>
-            <h2 id="para-black" class="px-4 mt-4 text-3xl font-bold text-white capitalize">hello! i'm subair</h2>
-            <p id="left-para para-black" class="px-4 mt-6 text-xl font-semibold text-white capitalize"><span class="text-modeColor">Web Developer</span> with over 3+ years of experience in crafting dynamic and responsive websites.</p>
+            <h2 class="px-4 mt-4 text-3xl font-bold text-white capitalize">hello! i'm subair</h2>
+            <p id="left-para" class="px-4 mt-6 text-xl font-semibold text-white capitalize"><span class="text-modeColor">Web Developer</span> with over 3+ years of experience in crafting dynamic and responsive websites.</p>
 
             <div id="icons" class="mx-6 mt-10 text-xl text-center">
               <button id="icons-left" class="px-2 py-1 text-white rounded-lg bg-bgMain"><i class="fab fa-linkedin"></i></button>
@@ -54,9 +54,9 @@ defer></script>
           <div id="content"> 
            <span id="ping" class="text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor fas fa-rocket"></span>
            <i class="px-6 mt-10 text-xl text-modeColor fas fa-rocket"><span class="text-2xl font-bold text-white capitalize"> about me</span> </i> 
-           <p id="para-black" class="mt-4 text-lg font-semibold text-white capitalize dark:text-rose-500">Since the beginning, I've been deeply passionate about ICT, starting with no-code tools back in 2021. This early fascination led me to teach myself how to code, and over the years, I've honed my skills across various programming languages and technologies.</p>
+           <p id="para-black1" class="mt-4 text-lg font-semibold text-white capitalize dark:text-rose-500">Since the beginning, I've been deeply passionate about ICT, starting with no-code tools back in 2021. This early fascination led me to teach myself how to code, and over the years, I've honed my skills across various programming languages and technologies.</p>
 
-           <p id="para-black" class="mt-4 text-lg font-semibold text-white capitalize">I've had the privilege of working in a web development company, and now, I'm eager to build innovative projects, automate tasks, and push the boundaries in Web & Mobile Development, Open Source, and Competitive Programming.</p>
+           <p id="para-black2" class="mt-4 text-lg font-semibold text-white capitalize">I've had the privilege of working in a web development company, and now, I'm eager to build innovative projects, automate tasks, and push the boundaries in Web & Mobile Development, Open Source, and Competitive Programming.</p>
 
            <div id="btn-main" class="mt-4">
              <span class="px-2 py-1 mx-1 text-sm font-semibold text-white capitalize rounded-full bg-bgMain">25 yo.</span>
@@ -86,12 +86,12 @@ defer></script>
             </div>
 
             <div id="word-carousel">
-              <h3 id="carousel para-black" class="w-2/3 px-4 mt-12 mb-20 text-2xl font-bold text-white capitalize"></h3>
+              <h3 id="carousel" class="w-2/3 px-4 mt-12 mb-20 text-2xl font-bold text-white capitalize"></h3>
             </div>
           </div>
 
           <div id="footer">
-            <p id="para-black" class="font-bold text-center text-white capitalize text-md">&copy; 2024 SubairMohamed</p>
+            <p class="font-bold text-center text-white capitalize text-md">&copy; 2024 SubairMohamed</p>
           </div>
         </main>
 
@@ -135,6 +135,8 @@ defer></script>
             $("#btnDark").css("color", "#f2f2f2");
             $(".fa-moon").css("color", "#f2f2f2");
             //Ends Nav-btns
+            $("#para-black1").css("color", "white");
+            $("#para-black2").css("color", "white");
           });
 
           $("#btnLight").click(function () {
@@ -145,7 +147,8 @@ defer></script>
             $("#btnDark").css("color", "#0D1016");
             $(".fa-moon").css("color", "#0D1016");
             //Ends Nav-btns
-
+            $("#para-black1").css("color", "#0D1016");
+            $("#para-black2").css("color", "#0D1016");
           });
         });
        </script>
