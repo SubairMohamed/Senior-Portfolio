@@ -127,6 +127,7 @@ defer></script>
 
         // some code of JQuery
         $(document).ready(function () {
+          //Start Dark-Mode
           $("#btnDark").click(function () {
             $("body").css("background-image", "url('/dist/img/star-4773.gif')");
             //Start Nav-btns
@@ -139,7 +140,11 @@ defer></script>
             //two-para-main
             $("#para-black1").css("color", "white");
             $("#para-black2").css("color", "white");
+
+            //my-name
+            $("#my-name").css("color", "#f2f2f2");
           });
+          //Ends Dark-Mode
 
           $("#btnLight").click(function () {
             $("body").css("background", "white");
