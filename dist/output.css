@@ -750,6 +750,10 @@ video {
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-modeColor {
   --tw-border-opacity: 1;
   border-color: rgb(96 139 193 / var(--tw-border-opacity));
