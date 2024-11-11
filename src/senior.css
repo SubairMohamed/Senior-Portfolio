@@ -27,6 +27,7 @@ border: 2px solid #0B192C;
 
 #circle-img {
     position: relative;
+    cursor: pointer;
 }
 
 #avater-img {
