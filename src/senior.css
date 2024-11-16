@@ -126,19 +126,19 @@ border: 2px solid #0B192C;
     height: 11vh;
     position: absolute;
     top: 0;
-    background: black;
+    background: rgba(255, 255, 255, 0);
     z-index: 2;
     content: "";
 }
 
 #slider-wrapper::before {
     left: 0;
-    background: linear-gradient(to left, #000);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0));
 }
 
 #slider-wrapper::after {
     right: 0;
-    background: linear-gradient(to right, #000);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0));
 }
 
 #slider-wrapper:hover #slider-icons {

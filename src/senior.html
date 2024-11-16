@@ -210,9 +210,14 @@
             $("#info h1").css("color", "#0D1016")
             $("#info p").css("color", "#608BC1")
             //$("#slider-wrapper").after().css("background", "#608BC1")
-            $("#slider-wrapper").before().click(function () {
-              $("#slider-wrapper").css("background", "#608BC1")
-            });
+            //$("#slider-wrapper").append("#slider-wrapper::before");
+           //$(".show-more-after").on("click", function() {
+           //  $(this).setPseudo(":after", "content", "'123'")
+           //})
+
+           $("#slider-wrapper").on("click", function () {
+              $(this).setPseudo(":after", "background", "'red'");
+           });
 
           });
           //Ends Light-Mode
