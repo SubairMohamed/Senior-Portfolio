@@ -211,7 +211,11 @@ defer></script>
             $("#title-location").css("color", "#608BC1")
             $("#info h1").css("color", "#0D1016")
             $("#info p").css("color", "#608BC1")
-            $("#slider-wrapper:has(::before), #slider-wrapper:has(::after)").css("background", "#608BC1")
+            //$("#slider-wrapper").after().css("background", "#608BC1")
+            $("#slider-wrapper").before().click(function () {
+              $("#slider-wrapper").css("background", "#608BC1")
+            });
+
           });
           //Ends Light-Mode
         });
