@@ -14,4 +14,8 @@
     #Menu {
         @apply flex flex-row items-center p-2 m-5 rounded-md max-w-80;
     }
+
+    .logo {
+        @apply text-3xl font-black text-white uppercase hover:cursor-pointer;
+    }
 }
