@@ -554,6 +554,14 @@ video {
   display: none;
 }
 
+#Navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .container {
   width: 100%;
 }
@@ -586,10 +594,6 @@ video {
   .container {
     max-width: 1536px;
   }
-}
-
-.fixed {
-  position: fixed;
 }
 
 .right-0 {
@@ -691,10 +695,6 @@ video {
   width: 2rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .min-w-80 {
   min-width: 20rem;
 }
@@ -724,10 +724,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .gap-5 {
