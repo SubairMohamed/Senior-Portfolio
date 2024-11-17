@@ -10,4 +10,8 @@
     #Navbar {
         @apply fixed flex items-center justify-between w-full;
     }
+
+    #Menu {
+        @apply flex flex-row items-center p-2 m-5 rounded-md max-w-80;
+    }
 }
