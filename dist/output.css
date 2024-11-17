@@ -554,6 +554,8 @@ video {
   display: none;
 }
 
+/* Start Nav style */
+
 #Navbar {
   position: fixed;
   display: flex;
@@ -622,6 +624,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(96 139 193 / var(--tw-bg-opacity));
 }
+
+/* Ends Nav style */
 
 .container {
   width: 100%;
