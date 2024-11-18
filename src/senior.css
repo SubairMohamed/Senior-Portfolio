@@ -99,10 +99,12 @@ border: 2px solid #0B192C;
     border: 1px solid #0B192C;
 }
 
-#line-main {
+/* #line-main {
     width: 622px;
     margin-top: 2rem;
-}
+    flex-wrap: wrap;
+
+} */
 
 #slider-wrapper {
     width: 96%;
