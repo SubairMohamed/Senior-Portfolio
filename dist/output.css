@@ -640,7 +640,7 @@ video {
   border-color: rgb(96 139 193 / var(--tw-border-opacity));
 }
 
-.img-Left-inside-circle {
+.img-Left {
   margin-left: auto;
   margin-right: auto;
   height: 15rem;
