@@ -50,6 +50,10 @@
     #left-para {
         @apply px-4 mt-6 text-xl font-semibold text-white capitalize;
     }
+
+    #icons-left {
+        @apply px-2 py-1 text-white rounded-lg bg-bgMain;
+    }
     /*Ends Aside Left */
 
 }

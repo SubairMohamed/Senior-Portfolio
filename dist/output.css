@@ -672,6 +672,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+#icons-left {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 16 22 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 /*Ends Aside Left */
 
 .container {
