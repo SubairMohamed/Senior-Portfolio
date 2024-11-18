@@ -54,6 +54,10 @@
     #icons-left {
         @apply px-2 py-1 text-white rounded-lg bg-bgMain;
     }
+
+    #btn-talk {
+        @apply px-3 py-1 text-lg font-semibold text-white capitalize rounded-lg bg-modeColor;
+    }
     /*Ends Aside Left */
 
 }
