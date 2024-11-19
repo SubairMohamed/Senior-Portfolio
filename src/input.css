@@ -62,7 +62,7 @@
 
     /* Start Main */
     .titles {
-        @apply text-2xl font-bold text-white capitalize;
+        @apply text-2xl font-bold text-white capitalize tracking-wide;
     }
 
     #ping, #code-2 {

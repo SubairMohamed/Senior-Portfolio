@@ -709,6 +709,7 @@ video {
   line-height: 2rem;
   font-weight: 700;
   text-transform: capitalize;
+  letter-spacing: 0.025em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -989,10 +990,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .capitalize {
