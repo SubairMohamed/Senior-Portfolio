@@ -704,13 +704,19 @@ video {
 
 /* Start Main */
 
-/* animate-ping */
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 
 #ping, #code-2 {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   font-size: 1.5rem;
   line-height: 2rem;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(96 139 193 / var(--tw-text-opacity));
   transition-delay: 1000ms;
   transition-duration: 700ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
