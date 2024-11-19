@@ -61,8 +61,9 @@
     /*Ends Aside Left */
 
     /* Start Main */
-    #ping {
-        @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
+    /* animate-ping */
+    #ping, #code-2 {
+        @apply text-2xl duration-700 ease-in-out delay-1000  text-white;
     }
 
     .para-black {
