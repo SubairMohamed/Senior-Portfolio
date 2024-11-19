@@ -3,6 +3,10 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   content: ["./src/**/*.{html,js}"],
   theme: {
+    debugScreens: {
+     position: ['top', 'left'],
+    },
+
     extend: {
       fontFamily: {
         nunito: ["Nunito Sans"],
@@ -17,6 +21,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+
+  plugins: [
+    require('tailwindcss-debug-screens'),
+  ],
+
 }
 
