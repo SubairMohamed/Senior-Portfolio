@@ -9,6 +9,7 @@
   "author": "subair",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^3.4.14",
+    "tailwindcss-debug-screens": "^2.2.1"
   }
 }
