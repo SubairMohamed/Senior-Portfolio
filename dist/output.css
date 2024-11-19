@@ -704,6 +704,15 @@ video {
 
 /* Start Main */
 
+.titles {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @keyframes ping {
   75%, 100% {
     transform: scale(2);
