@@ -64,6 +64,10 @@
     #ping {
         @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
     }
+
+    .para-black {
+        @apply mt-4 text-lg font-semibold text-white capitalize;
+    }
     /* Ends Main */
 
 }
