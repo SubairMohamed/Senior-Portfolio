@@ -96,6 +96,10 @@
     #current {
         @apply pt-4 text-2xl font-bold tracking-wider text-white;
     }
+
+    .fa-globe {
+        @apply text-2xl text-center text-yellow-500;
+    }
     /* Ends Aside Right */
 
 }

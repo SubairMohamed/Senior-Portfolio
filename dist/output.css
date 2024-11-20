@@ -814,6 +814,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.fa-globe {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
 /* Ends Aside Right */
 
 .container {
@@ -987,10 +995,6 @@ video {
   padding-left: 0.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1016,10 +1020,6 @@ video {
 
 .capitalize {
   text-transform: capitalize;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
 }
 
 .text-blue-500 {
