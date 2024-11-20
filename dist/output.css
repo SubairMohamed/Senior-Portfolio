@@ -721,7 +721,7 @@ video {
   }
 }
 
-#ping, #code-2 {
+#ping {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   font-size: 1.5rem;
   line-height: 2rem;
