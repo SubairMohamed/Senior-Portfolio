@@ -64,9 +64,11 @@ border: 2px solid #0B192C;
 }
 
 #img-ping {
+    width: 32px;
+    height: 32px;
     position: absolute;
     top: 82px;
-    right: 239px;
+    right: 244px;
 }
 
 #img-origin {

@@ -786,25 +786,9 @@ video {
 
 /* Start Aside Right */
 
-#img-ping {
-  display: inline;
-  height: 2rem;
-  width: 2rem;
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-#img-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  transition-delay: 1000ms;
-  transition-duration: 700ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* #img-ping {
+        @apply inline w-8 h-8 duration-700 ease-in-out delay-1000 animate-ping;
+    } */
 
 /* Ends Aside Right */
 
