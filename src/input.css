@@ -87,4 +87,11 @@
     }
     /* Ends Main */
 
+    /* Start Aside Right */
+
+    #img-ping {
+        @apply inline w-8 h-8 duration-700 ease-in-out delay-1000 animate-ping;
+    }
+    /* Ends Aside Right */
+
 }
