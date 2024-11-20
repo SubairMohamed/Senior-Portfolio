@@ -73,6 +73,8 @@ border: 2px solid #0B192C;
 
 #img-origin {
     position: relative;
+    width: 24px;
+    height: 24px;
 }
 /* Ends Right side */
 
