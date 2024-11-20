@@ -92,6 +92,10 @@
     #img-ping {
         @apply inline duration-700 ease-in-out delay-1000 animate-ping;
     }
+
+    #current {
+        @apply pt-4 text-2xl font-bold tracking-wider text-white;
+    }
     /* Ends Aside Right */
 
 }
