@@ -100,6 +100,10 @@
     .fa-globe {
         @apply text-2xl text-center text-yellow-500;
     }
+
+    #para-info {
+        @apply px-2 font-bold text-white capitalize;
+    }
     /* Ends Aside Right */
 
 }
