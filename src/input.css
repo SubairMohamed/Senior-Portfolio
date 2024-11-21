@@ -71,7 +71,7 @@
     }
 
     .para-black {
-        @apply mt-4 text-lg font-semibold text-white capitalize;
+        @apply mt-4 text-base font-semibold text-white capitalize;
     }
 
     #detail {
