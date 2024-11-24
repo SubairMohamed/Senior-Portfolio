@@ -958,10 +958,6 @@ video {
   display: inline;
 }
 
-.flex {
-  display: flex;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -980,10 +976,6 @@ video {
 
 .min-w-96 {
   min-width: 24rem;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .rounded-lg {
@@ -1088,9 +1080,5 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
-  }
-
-  .xl\:flex-col {
-    flex-direction: column;
   }
 }
