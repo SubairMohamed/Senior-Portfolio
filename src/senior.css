@@ -61,6 +61,8 @@ border: 2px solid #0B192C;
 /* Start Navbar Hidden */
 #Navbar-hdn {
     z-index: 1;
+    position: absolute;
+    top: -60px;
   }
   
   #Menu-hdn {

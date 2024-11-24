@@ -638,7 +638,6 @@ video {
 
 #Navbar-hdn {
   position: fixed;
-  margin-top: 0px;
   display: flex;
   width: 100%;
   align-items: center;
