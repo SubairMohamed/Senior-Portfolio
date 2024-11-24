@@ -629,6 +629,75 @@ video {
 
 /* Start Nav Style Hidden */
 
+#Navbar-hdn {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Menu-hdn {
+  margin: 1.25rem;
+  display: flex;
+  max-width: 20rem;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+
+.logo-hdn {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.logo-hdn:hover {
+  cursor: pointer;
+}
+
+.ul-hdn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.anchar-hdn {
+  font-family: Nunito Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.anchar-hdn:hover {
+  --tw-text-opacity: 1;
+  color: rgb(96 139 193 / var(--tw-text-opacity));
+}
+
+.ModeBtn {
+  border-radius: 9999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.ModeBtn:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 139 193 / var(--tw-bg-opacity));
+}
+
 /* Ends Nav Style Hidden */
 
 /* Start Aside Left */
