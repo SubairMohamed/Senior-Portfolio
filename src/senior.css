@@ -70,8 +70,14 @@ border: 2px solid #0B192C;
   }
   
   #Mode-hdn {
-      padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    items-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
   }
+
 /* Ends Navbar Hidden */
 
 /* Start Right side */
