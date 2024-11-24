@@ -40,7 +40,7 @@
        }
 
        #Menu-hdn {
-           @apply flex flex-row items-center p-2 m-5 rounded-md;
+           @apply flex flex-row items-center justify-around p-2 m-5 rounded-md;
        }
 
        .logo-hdn {
