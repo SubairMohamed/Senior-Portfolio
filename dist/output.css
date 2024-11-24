@@ -681,7 +681,7 @@ video {
   color: rgb(96 139 193 / var(--tw-text-opacity));
 }
 
-.ModeBtn {
+.ModeBtn-hdn {
   border-radius: 9999px;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -693,7 +693,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.ModeBtn:focus {
+.ModeBtn-hdn:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(96 139 193 / var(--tw-bg-opacity));
 }
