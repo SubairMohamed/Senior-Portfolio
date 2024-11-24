@@ -34,6 +34,10 @@
     }
     /* Ends Nav style */
 
+    /* Start Nav Style Hidden */
+    
+    /* Ends Nav Style Hidden */
+
     /* Start Aside Left */
     #circle-img {
         @apply w-64 h-64 mx-auto border-2 rounded-full border-modeColor;
