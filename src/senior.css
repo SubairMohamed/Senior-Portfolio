@@ -59,6 +59,18 @@ border: 2px solid #0B192C;
 /* Ends Navbar */
 
 /* Start Navbar Hidden */
+#Navbar-hdn {
+    z-index: 1;
+  }
+  
+  #Menu-hdn {
+    background: rgba(13, 16, 22, 0.9);
+    backdrop-filter: blur(4px);
+  }
+  
+  #Mode-hdn {
+      padding-bottom: 10px;
+  }
 /* Ends Navbar Hidden */
 
 /* Start Right side */
