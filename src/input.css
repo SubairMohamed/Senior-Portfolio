@@ -36,7 +36,7 @@
    
     /* Start Nav Style Hidden */
        #Navbar-hdn {
-           @apply  fixed flex items-center justify-center w-full bg-red-500;
+           @apply  fixed flex items-center justify-center w-full mt-0;
        }
 
        #Menu-hdn {
