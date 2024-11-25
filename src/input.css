@@ -115,21 +115,21 @@
 
     /* Start Aside Right */
 
-    #img-ping {
-        @apply inline duration-700 ease-in-out delay-1000 animate-ping;
-    }
-
-    #current {
-        @apply pt-4 text-2xl font-bold tracking-wider text-white;
-    }
-
-    .fa-globe {
-        @apply text-2xl text-center text-yellow-500;
-    }
-
-    #para-info {
-        @apply px-2 font-bold text-white capitalize;
-    }
+      #img-ping {
+          @apply inline duration-700 ease-in-out delay-1000 animate-ping;
+      }
+  
+      #current {
+          @apply pt-4 text-2xl font-bold tracking-wider text-white;
+      }
+  
+      .fa-globe {
+          @apply text-2xl text-center text-yellow-500;
+      }
+  
+      #para-info {
+          @apply px-2 font-bold text-white capitalize;
+      }
     /* Ends Aside Right */
 
 }
