@@ -718,10 +718,12 @@ video {
 
 .ModeBtn-hdn {
   border-radius: 9999px;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 700;
   text-transform: capitalize;
   --tw-text-opacity: 1;
@@ -731,6 +733,13 @@ video {
 .ModeBtn-hdn:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(96 139 193 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .ModeBtn-hdn {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 /* Ends Nav Style Hidden */

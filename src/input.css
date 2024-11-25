@@ -56,7 +56,7 @@
        }
    
        .ModeBtn-hdn {
-           @apply px-3 py-1 font-bold text-white capitalize rounded-full focus:bg-modeColor;
+           @apply sm:text-lg text-sm px-2 py-1 font-bold text-white capitalize rounded-full focus:bg-modeColor;
        }
     /* Ends Nav Style Hidden */
 
