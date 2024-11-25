@@ -199,16 +199,16 @@
 /* Ends Carousel */
 
 /* Start Scrolling */
-@keyframes slide {
-   
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
+  @keyframes slide {
+     
+      from {
+          transform: translateX(100%);
+      }
+  
+      to {
+          transform: translateX(-100%);
+      }
+  }
 /* Ends Scrolling */
 
 
