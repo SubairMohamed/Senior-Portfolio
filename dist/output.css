@@ -558,11 +558,8 @@ video {
 
 #Navbar {
   position: fixed;
-  display: flex;
   display: none;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 @media (min-width: 1024px) {

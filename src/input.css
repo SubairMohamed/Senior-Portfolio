@@ -10,7 +10,7 @@
 
     /* Start Nav style */
     #Navbar {
-        @apply  fixed flex items-center justify-between w-full lg:block hidden;
+        @apply  fixed w-full lg:block hidden;
     }
 
     #Menu {

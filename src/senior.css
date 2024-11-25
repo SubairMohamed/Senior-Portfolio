@@ -3,58 +3,55 @@
 }
 
 /* Start left side */
-#icons-left, .btn-left {
-border: 2px solid #0B192C;
-}
+  #icons-left, .btn-left {
+  border: 2px solid #0B192C;
+  }
+  
+  #left {
+      border-right: 1px solid #f2f2f2;
+  }
+  
+  #btn-talk:hover {
+      box-shadow: 5px 6px 8px 3px #295790;
+  }
+  
+  #icons-left:hover {
+      box-shadow: 5px 6px 8px 3px #295790;
+  }
 
-#left {
-    border-right: 1px solid #f2f2f2;
-}
-
-#btn-talk:hover {
-    box-shadow: 5px 6px 8px 3px #295790;
-}
-
-#icons-left:hover {
-    box-shadow: 5px 6px 8px 3px #295790;
-}
-
-#my-img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-#circle-img {
-    position: relative;
-    cursor: pointer;
-}
-
-#avater-img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    opacity: 1;
-    transition: all .4s ease;
-}
-
-#avater-img:hover {
-    opacity: 0;
-}
+  #my-img {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+  }
+  
+  #circle-img {
+      position: relative;
+      cursor: pointer;
+  }
+  
+  #avater-img {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      opacity: 1;
+      transition: all .4s ease;
+  }
+  
+  #avater-img:hover {
+      opacity: 0;
+  }
 /* Ends left side */
 
 /* Start Navbar */
 #Navbar {
   z-index: 1;
+  background: blue;
 }
 
 #Menu {
   background: rgba(13, 16, 22, 0.9);
   backdrop-filter: blur(4px);
-}
-
-#Mode {
-    padding-bottom: 10px;
 }
 /* Ends Navbar */
 
