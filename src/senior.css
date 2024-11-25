@@ -2,6 +2,42 @@
   background-image: url("/dist/img/star-4773.gif");
 }
 
+/* Start Navbar */
+  #Navbar {
+    display: flex;
+    z-index: 1;
+    background: blue;
+  }
+  
+  #Menu {
+    background: rgba(13, 16, 22, 0.9);
+    backdrop-filter: blur(4px);
+  }
+/* Ends Navbar */
+
+/* Start Navbar Hidden */
+  #Navbar-hdn {
+      z-index: 1;
+      position: absolute;
+      top: -60px;
+  }
+  
+  #Menu-hdn {
+    width: 90%;
+    background: rgba(13, 16, 22, 0.9);
+    backdrop-filter: blur(4px);
+  }
+  
+  #Mode-hdn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    items-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+/* Ends Navbar Hidden */
+
 /* Start left side */
   #icons-left, .btn-left {
   border: 2px solid #0B192C;
@@ -42,42 +78,6 @@
       opacity: 0;
   }
 /* Ends left side */
-
-/* Start Navbar */
-  #Navbar {
-    display: flex;
-    z-index: 1;
-    background: blue;
-  }
-  
-  #Menu {
-    background: rgba(13, 16, 22, 0.9);
-    backdrop-filter: blur(4px);
-  }
-/* Ends Navbar */
-
-/* Start Navbar Hidden */
-  #Navbar-hdn {
-      z-index: 1;
-      position: absolute;
-      top: -60px;
-  }
-  
-  #Menu-hdn {
-    width: 90%;
-    background: rgba(13, 16, 22, 0.9);
-    backdrop-filter: blur(4px);
-  }
-  
-  #Mode-hdn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    items-align: center;
-    padding-bottom: 10px;
-    padding-top: 5px;
-  }
-/* Ends Navbar Hidden */
 
 /* Start Right side */
   #right {
@@ -169,7 +169,6 @@
       animation-play-state: paused;
   }
 /* Ends Main side */
-
 
 /* Start word carousel Main */
   #carousel::after {
