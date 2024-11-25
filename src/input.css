@@ -88,29 +88,29 @@
 
     /* Start Main */
 
-    .titles {
-        @apply text-2xl font-bold text-white capitalize tracking-wide;
-    }
-
-    #ping, #code-2 {
-        @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
-    }
-
-    .para-black {
-        @apply mt-4 text-base font-semibold text-white capitalize;
-    }
-
-    #detail {
-        @apply px-2 py-1 mx-1 text-sm font-semibold text-white capitalize rounded-full bg-bgMain;
-    }
-
-    #carousel {
-        @apply w-2/3 px-4 mt-12 mb-20 text-2xl font-bold text-white capitalize;
-    }
-
-    #para-footer{
-        @apply font-bold text-center text-white capitalize;
-    }
+       .titles {
+           @apply text-2xl font-bold text-white capitalize tracking-wide;
+       }
+   
+       #ping, #code-2 {
+           @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
+       }
+   
+       .para-black {
+           @apply mt-4 text-base font-semibold text-white capitalize;
+       }
+   
+       #detail {
+           @apply px-2 py-1 mx-1 text-sm font-semibold text-white capitalize rounded-full bg-bgMain;
+       }
+   
+       #carousel {
+           @apply w-2/3 px-4 mt-12 mb-20 text-2xl font-bold text-white capitalize;
+       }
+   
+       #para-footer{
+           @apply font-bold text-center text-white capitalize;
+       }
     /* Ends Main */
 
     /* Start Aside Right */
