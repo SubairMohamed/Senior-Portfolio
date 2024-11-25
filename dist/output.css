@@ -667,8 +667,8 @@ video {
 }
 
 .logo-hdn {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 900;
   text-transform: uppercase;
   --tw-text-opacity: 1;
@@ -677,6 +677,13 @@ video {
 
 .logo-hdn:hover {
   cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .logo-hdn {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 .ul-hdn {
