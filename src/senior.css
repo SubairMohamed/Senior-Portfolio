@@ -44,15 +44,16 @@
 /* Ends left side */
 
 /* Start Navbar */
-#Navbar {
-  z-index: 1;
-  background: blue;
-}
-
-#Menu {
-  background: rgba(13, 16, 22, 0.9);
-  backdrop-filter: blur(4px);
-}
+  #Navbar {
+    display: flex;
+    z-index: 1;
+    background: blue;
+  }
+  
+  #Menu {
+    background: rgba(13, 16, 22, 0.9);
+    backdrop-filter: blur(4px);
+  }
 /* Ends Navbar */
 
 /* Start Navbar Hidden */
