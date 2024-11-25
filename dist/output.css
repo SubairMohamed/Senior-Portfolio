@@ -696,6 +696,8 @@ video {
 
 .anchar-hdn {
   font-family: Nunito Sans;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
   --tw-text-opacity: 1;
@@ -705,6 +707,13 @@ video {
 .anchar-hdn:hover {
   --tw-text-opacity: 1;
   color: rgb(96 139 193 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .anchar-hdn {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 .ModeBtn-hdn {

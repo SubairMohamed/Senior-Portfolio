@@ -52,7 +52,7 @@
        }
 
        .anchar-hdn {
-           @apply font-semibold text-white uppercase font-nunito hover:text-modeColor;
+           @apply sm:text-lg text-sm font-semibold text-white uppercase font-nunito hover:text-modeColor;
        }
    
        .ModeBtn-hdn {
