@@ -9,29 +9,29 @@
 @layer base {
 
     /* Start Nav style */
-    #Navbar {
-        @apply  fixed w-full lg:block hidden;
-    }
-
-    #Menu {
-        @apply flex flex-row items-center p-2 m-5 rounded-md max-w-80;
-    }
-
-    .logo {
-        @apply text-3xl font-black text-white uppercase hover:cursor-pointer;
-    }
-
-    .ul {
-        @apply flex flex-row items-center gap-5 pl-5;
-    }
-
-    .anchar {
-        @apply font-semibold text-white uppercase font-nunito hover:text-modeColor;
-    }
-
-    .ModeBtn {
-        @apply px-3 py-1 font-bold text-white capitalize rounded-full focus:bg-modeColor;
-    }
+      #Navbar {
+          @apply  fixed w-full lg:block hidden;
+      }
+  
+      #Menu {
+          @apply flex flex-row items-center p-2 m-5 rounded-md max-w-80;
+      }
+  
+      .logo {
+          @apply text-3xl font-black text-white uppercase hover:cursor-pointer;
+      }
+  
+      .ul {
+          @apply flex flex-row items-center gap-5 pl-5;
+      }
+  
+      .anchar {
+          @apply font-semibold text-white uppercase font-nunito hover:text-modeColor;
+      }
+  
+      .ModeBtn {
+          @apply px-3 py-1 font-bold text-white capitalize rounded-full focus:bg-modeColor;
+      }
     /* Ends Nav style */
    
     /* Start Nav Style Hidden */
