@@ -172,30 +172,30 @@
 
 
 /* Start word carousel Main */
-#carousel::after {
-    content: "";
-    animation: 20s swap infinite;
-}
+  #carousel::after {
+      content: "";
+      animation: 20s swap infinite;
+  }
 /* Ends word carousel Main */
 
 /* Starts Carousel */
-@keyframes swap {
-    0% {
-        content: " Code That Connects People and Possibilities."; 
-    }
-
-    25% {
-        content: " Solutions for web design, development, and digital marketing.";
-    }
-
-    75% {
-        content: " Building the Web, One Pixel at a Time."; 
-    }
-
-    100% {
-        content: " Code That Connects People and Possibilities."; 
-    }
-}
+  @keyframes swap {
+      0% {
+          content: " Code That Connects People and Possibilities."; 
+      }
+  
+      25% {
+          content: " Solutions for web design, development, and digital marketing.";
+      }
+  
+      75% {
+          content: " Building the Web, One Pixel at a Time."; 
+      }
+  
+      100% {
+          content: " Code That Connects People and Possibilities."; 
+      }
+  }
 /* Ends Carousel */
 
 /* Start Scrolling */
