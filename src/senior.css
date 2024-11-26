@@ -5,6 +5,7 @@
 /* Start Navbar */
   #Navbar {
     z-index: 1;
+    background: yellow;
   }
   
   #Menu {
@@ -15,6 +16,9 @@
   #Mode {
     display: flex;
     flex-direction: row;
+    justify-content: End;
+    min-width: 100%;
+    background: blue;
   }
 /* Ends Navbar */
 
