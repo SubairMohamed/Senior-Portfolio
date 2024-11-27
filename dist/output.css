@@ -793,6 +793,15 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  #left-para {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.333333%;
+    text-align: center;
+  }
+}
+
 #icons-left {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
