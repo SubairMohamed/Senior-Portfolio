@@ -144,7 +144,7 @@
         // some code of JQuery
         $(document).ready(function () {
           //Start Dark-Mode
-          $("#btnDark").click(function () {
+          $("#btnDark, #btnDark-hdn").click(function () {
             $("body").css("background-image", "url('/dist/img/star-4773.gif')");
             //Start Nav-btns
             $("#btnLight").css("color", "#f2f2f2");
@@ -184,7 +184,7 @@
           //Ends Dark-Mode
 
           //Start Light-Mode
-          $("#btnLight").click(function () {
+          $("#btnLight, #btnLight-hdn").click(function () {
             $("body").css("background", "white");
             //Start Nav-btns
             $("#btnLight").css("color", "#0D1016");
