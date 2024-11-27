@@ -97,7 +97,7 @@
        }
    
        .para-black {
-           @apply mt-4 text-base font-semibold text-white capitalize;
+           @apply lg:w-1/2 lg:mx-auto mt-4 text-base font-semibold text-white capitalize;
        }
    
        #detail {
