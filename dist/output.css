@@ -775,6 +775,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  #my-name {
+    text-align: center;
+  }
+}
+
 #left-para {
   margin-top: 1.5rem;
   padding-left: 1rem;
