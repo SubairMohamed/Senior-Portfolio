@@ -887,6 +887,14 @@ video {
   }
 }
 
+@media (min-width: 1280px) {
+  .para-black {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+
 #detail {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
