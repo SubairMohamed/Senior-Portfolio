@@ -1242,4 +1242,8 @@ video {
   .xl\:flex-row {
     flex-direction: row;
   }
+
+  .xl\:text-left {
+    text-align: left;
+  }
 }
