@@ -802,6 +802,13 @@ video {
   }
 }
 
+@media (min-width: 1280px) {
+  #left-para {
+    width: 100%;
+    text-align: left;
+  }
+}
+
 #icons-left {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
