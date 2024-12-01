@@ -1011,7 +1011,7 @@ video {
     margin-left: 0px;
     margin-right: 0px;
     width: 83.333333%;
-    padding-bottom: 0px;
+    padding-bottom: 0.5rem;
     text-align: left;
   }
 }
@@ -1143,6 +1143,10 @@ video {
   display: inline;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -1174,6 +1178,11 @@ video {
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .px-6 {
