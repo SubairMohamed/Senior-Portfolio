@@ -99,6 +99,10 @@
        .para-black {
            @apply xl:mx-0 xl:w-full lg:w-1/2 lg:mx-auto mt-4 text-base font-semibold text-white capitalize;
        }
+
+       #btn-main {
+        @apply lg:text-center;
+       }
    
        #detail {
            @apply px-2 py-1 mx-1 text-sm font-semibold text-white capitalize rounded-full bg-bgMain;

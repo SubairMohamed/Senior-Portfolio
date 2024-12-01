@@ -895,6 +895,12 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  #btn-main {
+    text-align: center;
+  }
+}
+
 #detail {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
