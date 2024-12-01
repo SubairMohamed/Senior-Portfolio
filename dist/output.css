@@ -1011,6 +1011,7 @@ video {
     margin-left: 0px;
     margin-right: 0px;
     width: 83.333333%;
+    padding-bottom: 0px;
     text-align: left;
   }
 }

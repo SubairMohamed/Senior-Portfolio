@@ -132,7 +132,7 @@
       }
   
       #para-info {
-          @apply xl:w-5/6 xl:text-left xl:mx-0 lg:text-center lg:w-1/2 lg:mx-auto lg:pb-4 px-2 font-bold text-white capitalize;
+          @apply xl:w-5/6 xl:text-left xl:mx-0 xl:pb-0 lg:text-center lg:w-1/2 lg:mx-auto lg:pb-4 px-2 font-bold text-white capitalize;
       }
     /* Ends Aside Right */
 
