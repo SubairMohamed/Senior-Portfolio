@@ -101,7 +101,7 @@
        }
 
        #btn-main {
-        @apply lg:text-center;
+        @apply xl:text-left lg:text-center;
        }
    
        #detail {
