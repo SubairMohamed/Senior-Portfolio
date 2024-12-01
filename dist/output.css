@@ -1006,6 +1006,15 @@ video {
   }
 }
 
+@media (min-width: 1280px) {
+  #para-info {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 83.333333%;
+    text-align: left;
+  }
+}
+
 /* Ends Aside Right */
 
 .container {
