@@ -996,6 +996,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  #para-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+
 /* Ends Aside Right */
 
 .container {

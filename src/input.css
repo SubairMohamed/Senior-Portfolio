@@ -132,7 +132,7 @@
       }
   
       #para-info {
-          @apply px-2 font-bold text-white capitalize;
+          @apply lg:text-center lg:w-1/2 lg:mx-auto lg:pb-4 px-2 font-bold text-white capitalize;
       }
     /* Ends Aside Right */
 
