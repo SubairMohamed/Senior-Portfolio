@@ -91,6 +91,10 @@
        .titles {
            @apply text-2xl font-bold text-white capitalize tracking-wide;
        }
+
+       #about-title {
+        @apply px-6 mt-10 text-xl xl:text-left lg:w-full lg:text-center text-modeColor;
+       }
    
        #ping, #code-2 {
            @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
