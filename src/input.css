@@ -124,7 +124,7 @@
     /* Start Aside Right */
 
       #img-ping {
-          @apply inline duration-700 ease-in-out delay-1000 animate-ping;
+          @apply xl:block hidden duration-700 ease-in-out delay-1000 animate-ping;
       }
   
       #current {

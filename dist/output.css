@@ -1005,7 +1005,7 @@ video {
 /* Start Aside Right */
 
 #img-ping {
-  display: inline;
+  display: none;
 }
 
 @keyframes ping {
@@ -1020,6 +1020,12 @@ video {
   transition-delay: 1000ms;
   transition-duration: 700ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1280px) {
+  #img-ping {
+    display: block;
+  }
 }
 
 #current {
