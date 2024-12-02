@@ -97,7 +97,7 @@
        }
    
        #ping, #code-2 {
-           @apply text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
+           @apply xl:block hidden text-2xl duration-700 ease-in-out delay-1000 animate-ping text-modeColor;
        }
    
        .para-black {
