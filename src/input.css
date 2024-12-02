@@ -124,7 +124,7 @@
       }
   
       #current {
-          @apply pt-4 text-2xl font-bold tracking-wider text-white;
+          @apply lg:pt-0 xl:pt-4 text-2xl font-bold tracking-wider text-white;
       }
   
       .fa-globe {
