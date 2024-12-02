@@ -1250,6 +1250,10 @@ video {
   width: 24rem;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .min-w-80 {
   min-width: 20rem;
 }
