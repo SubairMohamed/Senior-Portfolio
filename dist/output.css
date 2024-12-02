@@ -858,8 +858,10 @@ video {
 
 #about-title {
   margin-top: 2.5rem;
+  width: 100%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;

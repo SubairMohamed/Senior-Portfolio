@@ -93,7 +93,7 @@
        }
 
        #about-title {
-        @apply px-6 mt-10 text-xl xl:text-left lg:w-full lg:text-center text-modeColor;
+        @apply px-6 mt-10 text-xl xl:text-left lg:w-full lg:text-center text-center w-full text-modeColor;
        }
    
        #ping, #code-2 {
