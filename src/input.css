@@ -136,7 +136,7 @@
       }
 
       #para-footer-hdn {
-        @apply text-center font-bold text-white capitalize;
+        @apply xl:hidden lg:block text-center font-bold text-white capitalize;
       }
     /* Ends Aside Right */
 

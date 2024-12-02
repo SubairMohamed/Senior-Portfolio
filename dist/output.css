@@ -1037,6 +1037,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  #para-footer-hdn {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  #para-footer-hdn {
+    display: none;
+  }
+}
+
 /* Ends Aside Right */
 
 .container {
