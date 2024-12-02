@@ -783,9 +783,13 @@ video {
 }
 
 #left-para {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1.5rem;
+  width: 66.666667%;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
