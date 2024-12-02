@@ -876,8 +876,6 @@ video {
 
 .para-black {
   margin-top: 1rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
   font-weight: 600;
   text-transform: capitalize;
   --tw-text-opacity: 1;
@@ -889,6 +887,8 @@ video {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -897,6 +897,8 @@ video {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 

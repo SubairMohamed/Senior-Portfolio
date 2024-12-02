@@ -97,7 +97,7 @@
        }
    
        .para-black {
-           @apply xl:mx-0 xl:w-full lg:w-1/2 lg:mx-auto mt-4 text-base font-semibold text-white capitalize;
+           @apply xl:mx-0 xl:w-full xl:text-base lg:w-1/2 lg:mx-auto lg:text-lg mt-4 font-semibold text-white capitalize;
        }
 
        #btn-main {
